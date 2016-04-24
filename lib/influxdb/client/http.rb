@@ -103,7 +103,7 @@ module InfluxDB
 
       return http unless config.use_ssl
 
-      http.cert_store = generate_cert_store
+      #http.cert_store = generate_cert_store
       http
     end
 
